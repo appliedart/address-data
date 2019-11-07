@@ -1,0 +1,38 @@
+{
+	"name": "appliedart/address-data",
+	"description": "Craft plugin for fetching basic address data.",
+	"version": "1.0.0",
+	"type": "craft-plugin",
+	"keywords": [
+		"address",
+		"data"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Applied Art",
+			"homepage": "https://appliedart.com"
+		}
+	],
+	"support": {
+		"email": "support@appliedart.com",
+		"issues": "https://github.com/appliedart/address-data/issues?state=open",
+		"source": "https://github.com/appliedart/address-data",
+		"docs": "https://github.com/appliedart/address-data/blob/master/README.md"
+	},
+	"require": {
+		"craftcms/cms": "^3.3",
+		"commerceguys/addressing": "^1.0.1",
+		"commerceguys/intl": "^0.7.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"appliedart\\addressdata\\": "src/"
+		}
+	},
+	"extra": {
+		"handle": "basic-address-data",
+		"name": "Basic Address Data",
+		"documentationUrl": "https://github.com/appliedart/address-data/blob/master/README.md"
+	}
+}
